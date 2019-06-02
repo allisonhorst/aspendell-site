@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Hugo Creative Theme"
+title = "Aspendell.org"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -25,7 +25,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	description = "Your description"
 
 	# The path must be relative to the static folder
-	favicon = "favicon.ico"
+	favicon = "./img/aspen_leaf.png"
 
 
 	# Navigation
