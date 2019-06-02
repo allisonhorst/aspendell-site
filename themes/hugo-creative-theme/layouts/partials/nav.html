@@ -1,0 +1,64 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+        {{ "<!-- Brand and toggle get grouped for better mobile display -->" | safeHTML }}
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            {{ with .Site.Params.navigation.brand }}
+                <a class="navbar-brand page-scroll" href="#page-top">{{ . | markdownify }}</a>
+            {{ end }}
+        </div>
+        {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+
+                {{ if and .Site.Params.events .Site.Params.navigation.links.events }}
+                    <li>
+                        <a class="page-scroll" href="#events">{{ .Site.Params.navigation.links.events }}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.conditions .Site.Params.navigation.links.conditions }}
+                    <li>
+                        <a class="page-scroll" href="#conditions">{{ .Site.Params.navigation.links.conditions }}</a>
+                    </li>
+                {{ end }}
+
+                 {{ if and .Site.Params.asfvfd .Site.Params.navigation.links.asfvfd }}
+                    <li>
+                        <a class="page-scroll" href="#asfvfd">{{ .Site.Params.navigation.links.asfvfd }}</a>
+                    </li>
+                {{ end }}
+
+
+                {{ if and .Site.Params.localtips .Site.Params.navigation.links.localtips }}
+                    <li>
+                        <a class="page-scroll" href="#localtips">{{ .Site.Params.navigation.links.localtips }}</a>
+                    </li>
+                {{ end }}
+
+
+                {{ if and .Site.Params.information .Site.Params.navigation.links.information }}
+                    <li>
+                        <a class="page-scroll" href="#information">{{ .Site.Params.navigation.links.information }}</a>
+                    </li>
+                {{ end }}
+
+
+                {{ if and .Site.Params.contact .Site.Params.navigation.links.contact }}
+                    <li>
+                        <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact }}</a>
+                    </li>
+                {{ end }}
+
+            </ul>
+        </div>
+        {{ "<!-- /.navbar-collapse -->" | safeHTML }}
+    </div>
+    {{ "<!-- /.container-fluid -->" | safeHTML }}
+</nav>
