@@ -38,6 +38,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  asfvfd = "ASFVFD"
 		  information = "About Aspendell"
 		  localtips = "Useful Information"
+		  gallery = "Photos"
 			contact   = "Contact"
 
 
@@ -60,15 +61,19 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.conditions]
 		headline    = "Conditions:"
 
-	# Information section
+	# About Aspendell section
 	[params.information]
 		headline    = "Upcoming events:"
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started!"
 
-# Information section
+# Local resources section
 	[params.localtips]
 		headline    = "local tips something"
+
+# Photo gallery
+	[params.gallery]
+		headline    = "photo gallery"
 
 # ASFVFD section
 	[params.asfvfd]
@@ -121,9 +126,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
-	[params.contact]
-		headline = "Contact us to receive updates from the APOA"
-		email = "shareinfo@aspendell.org"
+	# [params.contact]
+	#	headline = "Contact us to receive updates from the APOA"
+	#	email = "shareinfo@aspendell.org"
 
 	# Google Maps section
 	# [params.location]
