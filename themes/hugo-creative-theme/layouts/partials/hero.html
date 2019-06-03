@@ -1,15 +1,19 @@
-{{ "<!-- HEADER -->" | safeHTML }}
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
 <header>
     <div class="header-content">
         <div class="header-content-inner">
-            {{ with .Site.Params.hero.slogan }}
-                <h1>{{ . | markdownify  }}</h1>
-            {{ end }}
+            <!--{{ with .Site.Params.hero.slogan }}-->
+                <h1 style="font-family: Dancing Script, cursive;">Aspendell</h1>
+            <!--{{ end }}-->
             {{ with .Site.Params.hero.subtitle }}
                 <p>{{ . | markdownify }}</p>
             {{ end }}
         </div>
-        <p style="text-center; size=12;"><i>To join our community mailing list, please email us at</i> <b>shareinfo@aspendell.org</b></p>
     </div>
 </header>
 
