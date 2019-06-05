@@ -38,7 +38,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  asfvfd = "ASFVFD"
 		  information = "About Aspendell"
 		  localtips = "Useful Information"
-		  gallery = "Photos"
+		  gallery_header = "Photos"
 			contact   = "Contact"
 
 
