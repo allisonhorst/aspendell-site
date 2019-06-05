@@ -4,3 +4,8 @@ Set navigation bar items: themes/hugo-creative-themes/layouts/partials/nav.html
 Overall front page layout: themes/hugo-creative-themes/layouts/index.html
 Individual sections: themes/hugo-creative-themes/layouts/partials/
 Main titles/headers updated in: config.toml
+
+When adding a new page: Need to update in...
+
+nav.html (add to navbar)
+config.toml (add section)

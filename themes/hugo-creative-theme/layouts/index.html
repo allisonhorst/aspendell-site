@@ -32,9 +32,14 @@
             {{ partial "information.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.gallery_header }}
+            {{ partial "gallery_header.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.gallery }}
             {{ partial "gallery.html" . }}
         {{ end }}
+
 
 
 

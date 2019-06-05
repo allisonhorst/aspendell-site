@@ -75,6 +75,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.gallery]
 		headline    = "photo gallery"
 
+# Photo gallery header
+  [params.gallery_header]
+		headline    = "photo gallery header"
+
 # ASFVFD section
 	[params.asfvfd]
 		headline    = "volunteer fire"
