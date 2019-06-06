@@ -124,7 +124,7 @@ aside {
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #f05f40!important;
+    color: #f05f40;
     background-color: transparent;
 }
 
@@ -134,13 +134,14 @@ aside {
 }
 
 @media(min-width:768px) {
-    .navbar-default {
-        border-color: rgba(255,255,255,.3);
-        background-color: transparent;
-    }
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,.9);
+        color: rgba(255,255,255,0.8);/*change upper left title color/opacity*/
+    }
+
+    .navbar-default {
+        border-color: transparent;
+        background-color: rgba(255,255,255,.3); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
