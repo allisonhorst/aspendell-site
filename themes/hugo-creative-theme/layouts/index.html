@@ -32,6 +32,10 @@
             {{ partial "information.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.contact }}
+            {{ partial "contact.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.gallery_header }}
             {{ partial "gallery_header.html" . }}
         {{ end }}
@@ -53,10 +57,6 @@
 
        <!-- {{ if .Site.Params.aside }}
             {{ partial "aside.html" . }}
-        {{ end }}-->
-
-        <!--{{ if .Site.Params.contact }}
-            {{ partial "contact.html" . }}
         {{ end }}-->
 
         <!--{{ if .Site.Data.projects }}

@@ -51,6 +51,13 @@
                 {{ end }}
 
 
+                 {{ if and .Site.Params.contact .Site.Params.navigation.links.contact}}
+                    <li>
+                        <a class="page-scroll" href="#contact">{{ .Site.Params.navigation.links.contact}}</a>
+                    </li>
+                {{ end }}
+
+
                 {{ if and .Site.Params.information .Site.Params.navigation.links.gallery_header}}
                     <li>
                         <a class="page-scroll" href="#gallery_header">{{ .Site.Params.navigation.links.gallery_header}}</a>

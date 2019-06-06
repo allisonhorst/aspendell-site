@@ -37,9 +37,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  conditions = "Weather & Road"
 		  asfvfd = "ASFVFD"
 		  information = "About Aspendell"
-		  localtips = "Useful Information"
+		  localtips = "Local Links"
 		  gallery_header = "Photos"
-			contact   = "Contact"
+			contact   = "Contacts"
 
 
 
@@ -47,7 +47,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "ASPENDELL"
-		subtitle   = "Inyo National Forest near Bishop, CA 93514"
+		subtitle   = "A mountain community surrounded by Inyo National Forest near Bishop, CA, 93514"
 		# buttonText = "Find out more"
 
 
@@ -130,9 +130,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	#		link = "//github.com/digitalcraftsman/hugo-creative-theme"
 
 	# Contact section
-	# [params.contact]
-	#	headline = "Contact us to receive updates from the APOA"
-	#	email = "shareinfo@aspendell.org"
+	 [params.contact]
+	 headline = "Contact us to receive updates from the APOA"
+	 email = "shareinfo@aspendell.org"
 
 	# Google Maps section
 	# [params.location]

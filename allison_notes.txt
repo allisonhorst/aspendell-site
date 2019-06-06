@@ -9,3 +9,4 @@ When adding a new page: Need to update in...
 
 nav.html (add to navbar)
 config.toml (add section)
+index.html (add section in correct position)
