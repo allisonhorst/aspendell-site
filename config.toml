@@ -47,7 +47,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "ASPENDELL"
-		subtitle   = "Bishop, CA 93514"
+		subtitle   = "on Bishop Creek in Inyo National Forest, Bishop, CA 93514"
 		# buttonText = "Find out more"
 
 
