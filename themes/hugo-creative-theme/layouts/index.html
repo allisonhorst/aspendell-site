@@ -12,6 +12,10 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.news }}
+            {{ partial "news.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.events }}
             {{ partial "events.html" . }}
         {{ end }}

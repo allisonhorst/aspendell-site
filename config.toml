@@ -40,6 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  localtips = "Local Links"
 		  gallery_header = "Photos"
 			contact   = "Contacts"
+			news = "News"
 
 
 
@@ -49,6 +50,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		slogan     = "ASPENDELL"
 		subtitle   = "A mountain community surrounded by Inyo National Forest near Bishop, CA, 93514"
 		# buttonText = "Find out more"
+
+	  # Events section
+	[params.news]
+		headline    = "Upcoming events:"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
 
 
   # Events section

@@ -17,6 +17,14 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
 
+
+                 {{ if and .Site.Params.news .Site.Params.navigation.links.news }}
+                    <li>
+                        <a class="page-scroll" href="#news">{{ .Site.Params.navigation.links.news }}</a>
+                    </li>
+                {{ end }}
+
+
                 {{ if and .Site.Params.events .Site.Params.navigation.links.events }}
                     <li>
                         <a class="page-scroll" href="#events">{{ .Site.Params.navigation.links.events }}</a>

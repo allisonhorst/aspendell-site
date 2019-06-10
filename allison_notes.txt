@@ -4,9 +4,17 @@ Set navigation bar items: themes/hugo-creative-themes/layouts/partials/nav.html
 Overall front page layout: themes/hugo-creative-themes/layouts/index.html
 Individual sections: themes/hugo-creative-themes/layouts/partials/
 Main titles/headers updated in: config.toml
+Most images: hugo-creative-themes/static/img/
 
 When adding a new page: Need to update in...
 
-nav.html (add to navbar)
-config.toml (add section)
-index.html (add section in correct position)
+- nav.html (add to navbar)
+- config.toml (add section)
+- index.html (add section in correct position)
+- remember in the html top line to add id = "match_id_name" so it knows where to navigate to!
+
+To preview site:
+library(blogdown)
+serve_site()
+
+
