@@ -40,7 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  localtips = "Local Links"
 		  gallery_header = "Photos"
 			contact   = "Contacts"
-			news = "News"
+			news = "News & Events"
 
 
 
