@@ -143,7 +143,7 @@ aside {
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba(233,114,1,.9); /*change background color & transparency of navbar*/
+        background-color: rgba(48, 51, 86,.9); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
