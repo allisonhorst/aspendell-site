@@ -4,6 +4,8 @@
         {{ partial "head.html" . }}
     </head>
     <body id="page-top">
+
+
         {{ if or .Site.Params.navigation.links.about .Site.Params.navigation.links.services .Site.Params.navigation.links.portfolio .Site.Params.navigation.links.contact }}
             {{ partial "nav.html" . }}
         {{ end }}
@@ -12,16 +14,20 @@
             {{ partial "hero.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.quicklinks }}
+            {{ partial "quicklinks.html" . }}
+        {{ end }}
+
+        {{ if .Site.Params.conditions }}
+            {{ partial "conditions.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.news }}
             {{ partial "news.html" . }}
         {{ end }}
 
         {{ if .Site.Params.events }}
             {{ partial "events.html" . }}
-        {{ end }}
-
-        {{ if .Site.Params.conditions }}
-            {{ partial "conditions.html" . }}
         {{ end }}
 
         {{ if .Site.Params.asfvfd }}

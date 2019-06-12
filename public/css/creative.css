@@ -53,13 +53,15 @@ h5,
 h6 {
     font-family: 'Muli';/*'Open Sans','Helvetica Neue',Arial,sans-serif;*/
     margin-left: 10px;
+    margin-top: 10px;
 }
 
 p {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
     margin-left:10px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.2;
     font-family: 'Muli'/*'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 }
 
@@ -101,7 +103,7 @@ aside {
     text-transform: uppercase;
     font-family: 'Muli';/*'Open Sans','Helvetica Neue',Arial,sans-serif;*/
     font-weight: 700;
-    color: #f05f40;
+    color: #525372;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
@@ -136,27 +138,27 @@ aside {
 @media(min-width:768px) {
 
     .navbar-default .navbar-header .navbar-brand {
-        color: rgba(255,255,255,0.8);/*change upper left title color/opacity*/
+        color: white;/*change upper left title color/opacity*/
     }
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba(255,255,255,.3); /*change background color & transparency of navbar*/
+        background-color: rgba(60,69,112,.9); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #fff;
+        color: #C4775B;
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,.8); /*changes opacity of navbar list!*/
+        color: rgba(255,255,255,1); /*changes color & opacity of navbar list text!*/
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #fff;
+        color: #C4775B;
     }
 
     .navbar-default.affix {
@@ -190,8 +192,8 @@ header {
     width: 100%;
     min-height: auto;
     text-align: center;
-    color: #fff;
-    background-image: url(../img/header.jpg);
+    color: #120f29 ; /*Change main title color*/
+    background-image: url(../img/aspen_banner.jpg); /*change cover image*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -202,7 +204,7 @@ header {
 header .header-content {
     position: relative;
     width: 100%;
-    padding: 100px 15px;
+    padding: 15px 15px;
     text-align: center;
 }
 
@@ -214,24 +216,24 @@ header .header-content .header-content-inner h1 {
 }
 
 header .header-content .header-content-inner hr {
-    margin: 30px auto;
+    margin: 10px auto;
 }
 
 header .header-content .header-content-inner p {
-    margin-bottom: 50px;
-    font-size: 14px;
-    font-weight: 300;
-    color: rgba(255,255,255,.7);
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #120f29; /*rgba(255,255,255,.7);*/
 }
 
 @media(min-width:768px) {
     header {
-        min-height: 60%; /*location of header in image*/
+        min-height: 40%; /*change header image height*/
     }
 
     header .header-content {
         position: absolute;
-        top: 70%;
+        top: 65%; /*change vertical position of main title in header image*/
         padding: 10px 10px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -248,7 +250,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 80%;
-        font-size: 20px; /*changed font size for Bishop, CA 93514 subtitle in header*/
+        font-size: 20px; /*changed font size for subtitle, CA 93514 subtitle in header*/
     }
 }
 

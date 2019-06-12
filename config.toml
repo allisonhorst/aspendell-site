@@ -51,22 +51,26 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		subtitle   = "A mountain community surrounded by Inyo National Forest near Bishop, CA, 93514"
 		# buttonText = "Find out more"
 
+	[params.quicklinks]
+		headline    = "Upcoming events:"
+		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+		buttonText  = "Get started!"
+
+  # Road & weather section
+	[params.conditions]
+		headline    = "Conditions:"
+
 	  # Events section
 	[params.news]
 		headline    = "Upcoming events:"
 		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
 		buttonText  = "Get started!"
 
-
-  # Events section
-	[params.events]
-		headline    = "Upcoming events:"
-		description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
-		buttonText  = "Get started!"
-
-	# Road & weather section
-	[params.conditions]
-		headline    = "Conditions:"
+  # Events section merged with news
+	# [params.events]
+	# 	headline    = "Upcoming events:"
+	# 	description = "[Lorem](//google.com) ipsum dolor sit amet, consectetur adipisicing elit. Praesentium similique eos eligendi error veritatis harum, sed aliquid totam, quam minus neque enim est architecto, ad. Maiores, aliquid, vitae!"
+	# 	buttonText  = "Get started!"
 
 	# About Aspendell section
 	[params.information]
