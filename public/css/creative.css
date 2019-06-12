@@ -143,7 +143,7 @@ aside {
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba(241,142,7,.9); /*change background color & transparency of navbar*/
+        background-color: rgba(233,114,1,.9); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -228,12 +228,12 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 60%; /*change header image height*/
+        min-height: 70%; /*change header image height*/
     }
 
     header .header-content {
         position: absolute;
-        top: 65%; /*change vertical position of main title in header image*/
+        top: 55%; /*change vertical position of main title in header image*/
         padding: 10px 10px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
