@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #f48d00;
+    color: #6a9c1b;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #eb3812;
+    color: #436a08;
 }
 
 #about a {
@@ -143,7 +143,7 @@ aside {
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba(48, 51, 86,.9); /*change background color & transparency of navbar*/
+        background-color: rgba(70, 75, 127,.5); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
@@ -193,7 +193,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #120f29 ; /*Change main title color*/
-    background-image: url(../img/aspen_banner.jpg); /*change cover image*/
+    background-image: url(../img/snow_header.jpg); /*change cover image*/
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -228,12 +228,12 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 70%; /*change header image height*/
+        min-height: 60%; /*change header image height*/
     }
 
     header .header-content {
         position: absolute;
-        top: 55%; /*change vertical position of main title in header image*/
+        top: 70%; /*change vertical position of main title in header image*/
         padding: 10px 10px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
