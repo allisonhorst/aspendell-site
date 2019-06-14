@@ -121,7 +121,7 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #f05f40;
+    color: #cbd7f4;
 }
 
 .navbar-default .nav > li.active>a,
@@ -143,12 +143,12 @@ aside {
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba(70, 75, 127,.5); /*change background color & transparency of navbar*/
+        background-color: rgba(70, 75, 127,.4); /*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #C4775B;
+        color: #cbd7f4; /* Change color of brand (upper left) when you hover over it! */
     }
 
     .navbar-default .nav > li>a,
@@ -158,7 +158,7 @@ aside {
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #C4775B;
+        color: #cbd7f4; /* changes color of the navbar link when hovering */
     }
 
     .navbar-default.affix {
