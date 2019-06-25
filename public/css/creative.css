@@ -218,7 +218,7 @@ header .header-content {
 header .header-content .header-content-inner h1 {
     position: relative;
     width: 100%;
-    margin-top: 0;
+    margin-top: 50px; /*changed this so that header still appears on smaller screen?*/
     margin-bottom: 0;
     text-transform: none;
     font-weight: 400;
@@ -237,7 +237,7 @@ header .header-content .header-content-inner p {
 
 @media(min-width:768px) {
     header {
-        min-height: 60%; /*change header image height*/
+        min-height: 350px; /*change header image height*/
     }
 
     header .header-content {
@@ -252,7 +252,7 @@ header .header-content .header-content-inner p {
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
-        max-width: 1000px;
+        max-width: 100%; /*1000px;*/
     }
 
     header .header-content .header-content-inner p {
