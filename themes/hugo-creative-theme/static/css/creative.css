@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #db6700; /* change the color of links here!*/
+    color: #6a9305; /* change the color of links here!*/
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -121,7 +121,7 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #cbd7f4;
+    color: #fff;
 }
 
 .navbar-default .nav > li.active>a,
@@ -138,37 +138,44 @@ aside {
 @media(min-width:768px) {
 
     .navbar-default .navbar-header .navbar-brand {
-        color: white;/*change upper left title color/opacity*/
+        color: #33467d;
+        font-size: 13px;/*change brand upper left title color/opacity*/
     }
 
     .navbar-default {
         border-color: transparent;
-        background-color: rgba( 70, 62, 99, 0.8);/*change background color & transparency of navbar*/
+        background-color: rgba(225,225,225, 0.8);/*change background color & transparency of navbar*/
     }
 
     .navbar-default .navbar-header .navbar-brand:hover,
     .navbar-default .navbar-header .navbar-brand:focus {
-        color: #cbd7f4; /* Change color of brand (upper left) when you hover over it! */
+        color: white; /* Change color of brand (upper left) when you hover over it! */
     }
 
     .navbar-default .nav > li>a,
     .navbar-default .nav>li>a:focus {
-        color: rgba(255,255,255,1); /*changes color & opacity of navbar list text!*/
+        color: #33467d; /*changes color & opacity of navbar list text!*/
     }
 
     .navbar-default .nav > li>a:hover,
     .navbar-default .nav>li>a:focus:hover {
-        color: #cbd7f4; /* changes color of the navbar link when hovering */
+        color: #fff; /* changes color of the navbar link when hovering */
+        /*padding-top: 2px;
+        padding-bottom: 2px;*/
     }
 
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: rgba(255,255,255,.9);
+        /*padding-top: 2px;
+        padding-bottom: 2px;*/
     }
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
         color: #868094;
+        /*padding-top: 2px;
+        padding-bottom: 2px;*/
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -233,7 +240,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 70%; /*change vertical position of main title in header image*/
+        top: 65%; /*change vertical position of main title in header image*/
         padding: 10px 10px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);

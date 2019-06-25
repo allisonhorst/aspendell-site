@@ -30,17 +30,17 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 	# Navigation
 	[params.navigation]
-		brand = "APOA Website" # Put something here for upper left header
+		brand = "BACK TO TOP" # Put something here for upper left header
 
 		[params.navigation.links]
 		  # events    = "Events"
-		  conditions = "Weather & Road"
+		  conditions = "Road & Weather"
 		  asfvfd = "ASFVFD"
-		  information = "About Aspendell"
-		  localtips = "Local Links"
+		  information = "FAQ"
+		  localtips = "Area Businesses"
 		  gallery_header = "Photos"
 			contact   = "Contacts"
-			news = "News & Events"
+			news = "Community Events"
 
 
 
