@@ -35,12 +35,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		[params.navigation.links]
 		  # events    = "Events"
 		  conditions = "Road & Weather"
-		  asfvfd = "ASFVFD"
+		  # asfvfd = "ASFVFD"
 		  information = "FAQ"
 		  localtips = "Area Businesses"
 		  gallery_header = "Photos"
 			contact   = "Contacts"
-			news = "Community Events"
+			news = "Events"
+			emergency = "Emergency Preparedness"
 
 
 
@@ -59,6 +60,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   # Road & weather section
 	[params.conditions]
 		headline    = "Conditions:"
+
+	# Emergency business
+	[params.emergency]
+		headline    = "Emergency preparedness"
 
 	  # Events section
 	[params.news]
@@ -91,8 +96,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		headline    = "photo gallery header"
 
 # ASFVFD section
-	[params.asfvfd]
-		headline    = "volunteer fire"
+# [params.asfvfd]
+# 		headline    = "volunteer fire"
 
 	# About section
 	# [params.about]

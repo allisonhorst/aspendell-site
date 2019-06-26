@@ -18,10 +18,15 @@
             <ul class="nav navbar-nav navbar-right">
 
 
-
                 {{ if and .Site.Params.conditions .Site.Params.navigation.links.conditions }}
                     <li>
                         <a class="page-scroll" href="#conditions">{{ .Site.Params.navigation.links.conditions }}</a>
+                    </li>
+                {{ end }}
+
+                {{ if and .Site.Params.emergency .Site.Params.navigation.links.emergency }}
+                    <li>
+                        <a class="page-scroll" href="#emergency">{{ .Site.Params.navigation.links.emergency }}</a>
                     </li>
                 {{ end }}
 
@@ -39,11 +44,11 @@
                 {{ end }}-->
 
 
-                 {{ if and .Site.Params.asfvfd .Site.Params.navigation.links.asfvfd }}
+                 <!--{{ if and .Site.Params.asfvfd .Site.Params.navigation.links.asfvfd }}
                     <li>
                         <a class="page-scroll" href="#asfvfd">{{ .Site.Params.navigation.links.asfvfd }}</a>
                     </li>
-                {{ end }}
+                {{ end }}-->
 
 
                 {{ if and .Site.Params.localtips .Site.Params.navigation.links.localtips }}

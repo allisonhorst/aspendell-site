@@ -22,6 +22,10 @@
             {{ partial "conditions.html" . }}
         {{ end }}
 
+        {{ if .Site.Params.emergency }}
+            {{ partial "emergency.html" . }}
+        {{ end }}
+
         {{ if .Site.Params.news }}
             {{ partial "news.html" . }}
         {{ end }}
@@ -30,9 +34,9 @@
             {{ partial "events.html" . }}
         {{ end }}
 
-        {{ if .Site.Params.asfvfd }}
+        <!--{{ if .Site.Params.asfvfd }}
             {{ partial "asfvfd.html" . }}
-        {{ end }}
+        {{ end }}-->
 
         {{ if .Site.Params.localtips }}
             {{ partial "localtips.html" . }}
