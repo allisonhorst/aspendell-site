@@ -40,7 +40,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  localtips = "Area Businesses"
 		  gallery_header = "Photos"
 			contact   = "Contacts"
-			news = "Events"
+			news = "Community Events, News & Info"
 			emergency = "Emergency Preparedness"
 
 
@@ -84,8 +84,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		buttonText  = "Get started!"
 
 # Local resources section
-	[params.localtips]
-		headline    = "local tips something"
+#	[params.localtips]
+#		headline    = "local tips something"
 
 # Photo gallery
 	[params.gallery]
