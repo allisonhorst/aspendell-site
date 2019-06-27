@@ -242,7 +242,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%; /*change vertical position of main title in header image*/
+        top: 60%; /*change vertical position of main title in header image*/
         /*padding: 10px 10px;*/
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
