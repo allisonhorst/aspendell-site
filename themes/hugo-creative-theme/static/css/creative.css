@@ -65,6 +65,14 @@ p {
     font-family: 'Muli'/*'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 }
 
+#bannerimage {
+  width: 100%;
+  height: 120px;
+  background-image: url(../img/winter_aspendell.jpg);
+  background-color: purple;
+  background-position: center;
+}
+
 .bg-primary {
     background-color: #f05f40;
 }

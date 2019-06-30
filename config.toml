@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "Aspendell.org"
+title = "aspendell.org"
 theme = "hugo-creative-theme"
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -38,7 +38,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 		  # asfvfd = "ASFVFD"
 		  information = "FAQ"
 		  localtips = "Area Businesses"
-		  gallery_header = "Photos"
+		  # gallery_header = "Photos"
 			contact   = "Contacts"
 			news = "Community Events, News & Info"
 			emergency = "Emergency Preparedness"
@@ -88,12 +88,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 #		headline    = "local tips something"
 
 # Photo gallery
-	[params.gallery]
-		headline    = "photo gallery"
+# 	[params.gallery]
+# 		headline    = "photo gallery"
 
 # Photo gallery header
-  [params.gallery_header]
-		headline    = "photo gallery header"
+#   [params.gallery_header]
+#		headline    = "photo gallery header"
 
 # ASFVFD section
 # [params.asfvfd]
